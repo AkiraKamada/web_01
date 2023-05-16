@@ -3,7 +3,7 @@ const loading = document.querySelector('.loading');
 window.addEventListener('load', () => {
     setTimeout(function() {
         loading.classList.add('loaded');
-    }, 1500);
+    }, 2000);
 });
 
 document.getElementById('story').addEventListener('mouseover', function() {
