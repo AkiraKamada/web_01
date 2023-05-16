@@ -19,20 +19,17 @@ a {
     text-decoration: none;
 }
 
-#loading {
-    top:  0;
-    left: 0;
+.loading {
     width:  100vw;
     height: 100vh;
     z-index: 9999;
     position: fixed;
-    transition: all 2.4s;
     text-align: center;
     color: #fff;
     font-size: 6vw;
     overflow-y: hidden;
     background-color: #000;
-    animation: loding 2.5s;
+    animation: loding 2s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +46,8 @@ a {
 
 .loaded {
     visibility: hidden;
+    opacity: 0;
+    transition: opacity 3s;
 }
 
 header {
@@ -169,6 +168,10 @@ main {
     height:        auto;
     min-width:    500px;
     border-radius: 20px;
+    transition: 1s;
+}
+.hero_img img:hover{
+    transform:scale(105%)
 }
 
 /* #####################speaker#############################################################*/
@@ -214,7 +217,7 @@ main {
 }
 
 .speaker_bk img:hover {
-   transform: translateY(-20px);
+    transform:scale(105%)
 }
 
 .speaker_bk_name {
@@ -244,7 +247,7 @@ main {
 }
 
 .speaker_f img:hover {
-   transform: translateY(-30px);
+    transform:scale(105%)
 }
 
 .speaker_f_name {
@@ -331,7 +334,7 @@ main {
 }
 
 .story_img2 img:hover {
-    transform:translateY(-20px);
+    transform:scale(105%)
 }
 
 .story_text2{
