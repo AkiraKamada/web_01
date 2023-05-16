@@ -29,7 +29,7 @@ a {
     font-size: 6vw;
     overflow-y: hidden;
     background-color: #000;
-    animation: loding 1.5s linear;
+    animation: loding 2s linear;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,11 +37,8 @@ a {
 
 
 @keyframes loding {
-    0%{letter-spacing: 0; opacity: 0;}
-    5%{opacity: 1;}
-    90%{ opacity: 1; }
-    95%{ opacity: 0.5; }
-    100%{opacity: 0;letter-spacing: 1vw; }
+    0%{letter-spacing: 0;}
+    100%{letter-spacing: 1vw; }
 }
 
 .loaded {
