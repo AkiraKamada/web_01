@@ -38,10 +38,11 @@ a {
 
 @keyframes loding {
     0%{letter-spacing: 0;}
-    100%{letter-spacing: 1vw; }
+    100%{letter-spacing: 0.5vw; }
 }
 
 .loaded {
+    letter-spacing: 0.5vw;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.5s;
