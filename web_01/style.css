@@ -29,7 +29,7 @@ a {
     font-size: 6vw;
     overflow-y: hidden;
     background-color: #000;
-    animation: loding 3s linear;
+    animation: loding 2.2s linear;
     display: flex;
     justify-content: center;
     align-items: center;
