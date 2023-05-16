@@ -29,7 +29,7 @@ a {
     font-size: 6vw;
     overflow-y: hidden;
     background-color: #000;
-    animation: loding 2s linear;
+    animation: loding 3s linear;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,6 @@ a {
 .loaded {
     letter-spacing: 0.5vw;
     visibility: hidden;
-    opacity: 0;
     transition: opacity 0.5s;
 }
 
